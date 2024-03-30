@@ -35,6 +35,7 @@ noHayOpcion.style.display = 'none';
 // Event listener para el no
 botonNo.addEventListener('click', function() {
     cambiarTexto(noHayOpcion);
+    botonNo.style.display = 'none';
 });
 
 // Oculta el texto inicialmente
